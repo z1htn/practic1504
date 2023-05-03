@@ -24,8 +24,8 @@
             android:backgroundTint="#FFFFFF"
             android:textColor="#57A9FF"
             android:layout_marginLeft="30dp"
-            android:onClick="onClickHander2"
-            android:text="Пропустить" />
+            android:onClick="onClick"
+            android:text="Завершить" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -42,7 +42,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Уведомления"
+        android:text="Мониторинг"
         android:textSize="20dp"
         android:layout_marginTop="50dp"
         android:textColor="#00B712"
@@ -53,20 +53,22 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Вы быстро узнаете о результатах"
+        android:gravity="center"
+        android:text="Наши врачи наблюдают\n за вашими показателями здоровья"
         android:layout_marginTop="15dp"/>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/groupp"
-        android:layout_marginTop="35dp"/>
+        app:srcCompat="@drawable/grouup" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        app:srcCompat="@drawable/fon" />
+        app:srcCompat="@drawable/end" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>
